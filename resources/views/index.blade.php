@@ -21,7 +21,7 @@
 <div class="grid grid-cols-6 gap-4">
     <div class="col-start-2 col-span-4 ...">
         <div class="bg-white m-10 p-5 shadow-xl rounded-xl">
-            <div class="text-4xl">Shorten a long link</div>
+            <div class="text-4xl font-bold">Shorten a long link</div>
             <br>
             <form action="{{ route('shorten_url') }}" method="POST" enctype="multipart/form-data">
                 @csrf
